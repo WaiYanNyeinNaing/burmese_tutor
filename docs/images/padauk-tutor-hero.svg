@@ -1,0 +1,89 @@
+<svg width="1400" height="720" viewBox="0 0 1400 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="88" y1="52" x2="1268" y2="676" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF2CC"/>
+      <stop offset="0.5" stop-color="#E7F0FF"/>
+      <stop offset="1" stop-color="#E9FFF2"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="190" y1="120" x2="1200" y2="596" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="agent" x1="556" y1="244" x2="814" y2="474" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <filter id="shadow" x="130" y="92" width="1140" height="560" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="30"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0588235 0 0 0 0 0.0901961 0 0 0 0 0.164706 0 0 0 0.16 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12V0Z" fill="#94A3B8"/>
+    </marker>
+    <marker id="arrowTeal" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0 0L12 6L0 12V0Z" fill="#0F766E"/>
+    </marker>
+  </defs>
+
+  <rect width="1400" height="720" rx="36" fill="url(#bg)"/>
+  <circle cx="172" cy="128" r="112" fill="#FDE68A" fill-opacity="0.34"/>
+  <circle cx="1238" cy="118" r="90" fill="#BFDBFE" fill-opacity="0.52"/>
+  <circle cx="1166" cy="616" r="126" fill="#BBF7D0" fill-opacity="0.34"/>
+
+  <g filter="url(#shadow)">
+    <rect x="186" y="132" width="1028" height="440" rx="36" fill="url(#panel)"/>
+  </g>
+
+  <text x="236" y="196" fill="#0F172A" font-family="Arial, sans-serif" font-size="40" font-weight="700">Burmese Tutor Flow</text>
+  <rect x="236" y="262" width="212" height="230" rx="30" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="286" y="308" width="82" height="104" rx="18" fill="#F8FAFC" stroke="#CBD5E1" stroke-width="2"/>
+  <path d="M304 334H350" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M304 356H350" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M304 378H336" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+  <text x="287" y="452" fill="#0F172A" font-family="Arial, sans-serif" font-size="30" font-weight="700">Source</text>
+  <text x="283" y="480" fill="#64748B" font-family="Arial, sans-serif" font-size="18">study text</text>
+
+  <path d="M470 378H536" stroke="#94A3B8" stroke-width="8" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <circle cx="684" cy="378" r="118" fill="url(#agent)"/>
+  <circle cx="684" cy="344" r="34" fill="#E2E8F0"/>
+  <rect x="624" y="386" width="120" height="56" rx="28" fill="#E2E8F0"/>
+  <circle cx="742" cy="306" r="30" fill="#F8FAFC"/>
+  <path d="M730 306L738 314L754 296" stroke="#0F766E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="617" y="536" fill="#0F172A" font-family="Arial, sans-serif" font-size="31" font-weight="700">Padauk</text>
+
+  <path d="M806 378H872" stroke="#94A3B8" stroke-width="8" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <rect x="892" y="250" width="244" height="152" rx="30" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <path d="M946 300C946 281.775 960.775 267 979 267H1044C1062.22 267 1077 281.775 1077 300V329C1077 347.225 1062.22 362 1044 362H1013L990 383V362H979C960.775 362 946 347.225 946 329V300Z" fill="#E0F2FE"/>
+  <path d="M972 301H1048" stroke="#0284C7" stroke-width="6" stroke-linecap="round"/>
+  <path d="M972 327H1028" stroke="#0284C7" stroke-width="6" stroke-linecap="round"/>
+  <text x="957" y="446" fill="#0F172A" font-family="Arial, sans-serif" font-size="30" font-weight="700">Teach</text>
+  <text x="956" y="474" fill="#64748B" font-family="Arial, sans-serif" font-size="18">Burmese</text>
+
+  <path d="M1090 418V478" stroke="#94A3B8" stroke-width="8" stroke-linecap="round" marker-end="url(#arrow)"/>
+
+  <rect x="892" y="496" width="244" height="122" rx="30" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <circle cx="954" cy="556" r="28" fill="#DCFCE7"/>
+  <circle cx="954" cy="545" r="10" fill="#16A34A"/>
+  <rect x="937" y="558" width="34" height="18" rx="9" fill="#16A34A"/>
+  <path d="M1006 548H1062" stroke="#16A34A" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1006 570H1088" stroke="#16A34A" stroke-width="6" stroke-linecap="round"/>
+  <text x="1006" y="612" fill="#0F172A" font-family="Arial, sans-serif" font-size="30" font-weight="700">Check</text>
+
+  <path d="M886 560C790 628 582 628 474 540" stroke="#0F766E" stroke-width="8" stroke-linecap="round" marker-end="url(#arrowTeal)"/>
+  <rect x="602" y="612" width="110" height="36" rx="18" fill="#ECFDF5"/>
+  <text x="631" y="635" fill="#0F766E" font-family="Arial, sans-serif" font-size="18" font-weight="700">Adapt</text>
+
+  <rect x="294" y="524" width="132" height="40" rx="20" fill="#0F172A"/>
+  <text x="328" y="550" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="18" font-weight="700">Burmese</text>
+  <rect x="294" y="578" width="132" height="40" rx="20" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="326" y="604" fill="#475569" font-family="Arial, sans-serif" font-size="18" font-weight="700">Streaming</text>
+  <rect x="294" y="632" width="166" height="40" rx="20" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+  <text x="320" y="658" fill="#475569" font-family="Arial, sans-serif" font-size="18" font-weight="700">Step by step</text>
+</svg>
